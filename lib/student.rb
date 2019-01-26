@@ -46,7 +46,7 @@ class Student
     
     self.save
     self
-  end
+
   end
  
  
