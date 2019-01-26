@@ -16,7 +16,8 @@ class Student
         grade REAL
         )
         SQL
-    DB[:conn] 
+        
+    DB[:conn].execute(sql) 
   end
  
  
