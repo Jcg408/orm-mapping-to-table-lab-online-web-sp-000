@@ -15,6 +15,7 @@ class Student
         name TEXT,
         grade REAL
         )
+        SQL
     DB[:conn] 
   end
  
