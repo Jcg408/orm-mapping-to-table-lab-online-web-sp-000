@@ -43,7 +43,7 @@ class Student
    
     attributes.each do |key, value| 
      binding.pry
-    self.send(("#{key}="), value)
+    self.send(("#{key}"), value)
     
     self.save
     self
