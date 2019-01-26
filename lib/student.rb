@@ -42,7 +42,7 @@ class Student
   def self.create (attributes)
    
     attributes.each do |key, value| 
-     binding.pry
+    # binding.pry
     self.send(("#{key}"), value)
     
     self.save
