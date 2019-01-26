@@ -41,6 +41,7 @@ class Student
   
   def self.create (attributes)
     attributes.each {|key, value|self.send(value)}
+    binding.pry
     self.save
     self
 
